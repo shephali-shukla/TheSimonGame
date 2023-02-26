@@ -1,7 +1,7 @@
 var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
-
+var userClickedPattern = [];
 
 //Creating New Pattern:
 function nextSequence(){
@@ -50,6 +50,16 @@ $(document).keypress(function(){
         started = true;
     }
 });
+
+// Checking User's Answers Against Game Sequence:
+function checkAnswer(currentLevel){
+    if(gamePattern[currentLevel] === userClickedPattern[currentLevel]){
+        console.log("Success");
+        }
+    else{
+        console.log("Wrong");
+    }
+}
 
 
 
