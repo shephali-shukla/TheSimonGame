@@ -12,8 +12,7 @@ function nextSequence(){
     
     $("#" + randomChosenColor).fadeIn(100).fadeOut(100).fadeIn(100);
 
-    var audio = "sounds/" + randomChosenColor + ".mp3";
-    audio.play();
+    playSound(randomChosenColor);
 }
 
 //Check Which Button is Pressed:   
@@ -22,6 +21,12 @@ $(".btn").click(function(){
     userClickedPattern.push(userChosenColor);
     //console.log(userClickedPattern);
 });
+
+//Adding Sounds to button Clicks:
+function playSound(name){
+    var audio = "sounds/" + randomChosenColor + ".mp3";
+    audio.play();
+}
 
 
 
