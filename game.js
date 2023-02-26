@@ -28,6 +28,16 @@ function playSound(name){
     audio.play();
 }
 
+//Adding Animations to User Clicks:
+function animatePress(currentColor){
+
+    $("#" + currentColor).addClass("pressed");
+
+    setTimeout(function(){
+        $("#" + currentColor).removeClass("pressed");
+    }, 100);
+}
+
 
 
 
