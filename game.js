@@ -16,6 +16,13 @@ function nextSequence(){
     audio.play();
 }
 
+//Check Which Button is Pressed:   
+$(".btn").click(function(){
+    var userChosenColor = $(this).attr("id");
+    userClickedPattern.push(userChosenColor);
+    //console.log(userClickedPattern);
+});
+
 
 
 
