@@ -23,7 +23,7 @@ $(".btn").click(function(){
 });
 
 //Adding Sounds to button Clicks:
-function playSound(name){
+function playSound(_name){
     var audio = "sounds/" + randomChosenColor + ".mp3";
     audio.play();
 }
