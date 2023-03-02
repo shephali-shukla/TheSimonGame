@@ -1,6 +1,5 @@
 # The Simon Game
 
-# Simon Game
 This is a basic implementation of the Simon game, a memory game in which the player must repeat a sequence of button presses in the correct order. This implementation uses HTML, CSS, and JavaScript for the frontend, and features 4 colored buttons, an h1 tag that displays the current level, and a reset mechanism that triggers when the player presses the wrong button.
 
 This project is part of an assignment in the course on Udemy by Dr. Angela Yu, "The Complete 2022 Web Development Bootcamp". The goal of this project is to help students practice their HTML, CSS, and JavaScript skills by building a functional and interactive Simon game.
