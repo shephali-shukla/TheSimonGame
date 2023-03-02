@@ -10,7 +10,7 @@ To play the game, simply press any key to start the game. The game will then dis
 If the player makes a mistake by clicking the wrong button, the game will reset and the player will have to start over from level 1.
 
 # Getting Started
-To run the game locally on your computer, simply clone or download this repository and open the index.html file in your web browser. The game should start automatically when the page loads.
+To run the game locally on your computer, simply clone or download this repository and open the `index.html` file in your web browser. The game should start automatically when the page loads.
 
 # Technologies Used
 This implementation of the Simon game uses the following technologies:
